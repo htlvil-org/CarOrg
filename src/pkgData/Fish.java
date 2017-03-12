@@ -12,6 +12,7 @@ package pkgData;
 public class Fish {
     private String name;
     private int weight;
+    private String color;
 
     public Fish(String name) {
         this.name = name;
@@ -20,7 +21,9 @@ public class Fish {
     public String getName() {
         return name;
     }
-
+    public String getColor() {
+        return  color;
+    }
     public void setName(String name) {
         this.name = name;
     }
