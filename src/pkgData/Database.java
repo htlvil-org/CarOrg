@@ -4,6 +4,7 @@ import java.util.TreeSet;
 
 public class Database {
 	private TreeSet<Take> collAllTakes = new TreeSet<>();  //  @jve:decl-index=0:
+	private TreeSet<Fish> collAllFishes = new TreeSet<>();  //  @jve:decl-index=0:
 
 	public void addTake(Take t) throws Exception {
 		if (collAllTakes.contains(t)) {
